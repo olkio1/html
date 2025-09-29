@@ -15,3 +15,65 @@
 .menu .menu__link:hover {
     background: #1d4ed8;
 }
+.box {
+    width: 150px;
+    height: 80px;
+    margin: 10px;
+    background: lightgreen;
+    border: 2px solid green;
+    position: relative;
+    top : 20px;
+    left: 30px;
+}
+.parent{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background: lightblue;
+    
+}
+.child{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: coral;
+}
+.row {
+    display: flex;
+    gap: 12 px;
+}
+.bow { width: 80px; height: 80px; background: #e2e8f0; border: 2px solid #94a3b8; }
+.abs { position: absolute; top: 0;}
+.card{
+    position: relative;
+    width: 260px;
+    padding: 16px;
+    background: rgb(211, 53, 53);
+     border: 2px solid grey;
+    border-radius: 10px;
+}
+.badge{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: red;
+    color: lightgreen;
+    border-radius: 10px;
+    padding: 4px 8px;
+}
+.stage{
+    position: relative;
+    width: 360px;
+    height: 220px;
+    margin: 24px auto;
+    background: #5f5b55;
+    
+}
+.model{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #1d4ed8;
+    color: white;
+}
