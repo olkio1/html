@@ -5,10 +5,3 @@
         behavior: "smooth"
     });
  });
- 
- const scroolBtnDown = document.querySelector(".scroll-down");
- scroolBtnDown.addEventListener("click", () => {
-    window.scrollTo({
-        bottom: 0
-    });
- });
