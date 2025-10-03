@@ -1,0 +1,26 @@
+div p {
+    color: blue;
+}
+.article p {
+    color:green;
+
+}
+#content p {
+    color: red;
+}
+p{
+    color: blue;
+    
+}
+.text{
+    color: green !important;
+} 
+#main {
+    color: red;
+}
+h1{
+    color:blue;
+}
+h1.title{
+    color:green;
+}
