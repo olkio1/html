@@ -30,4 +30,28 @@
   align-self: flex-end; 
   background: #fecaca;
 }
+@media (min-width: 768px) {
+  
+    .cards {
+        width: 100%;
+    }
+     img { max-width: 44%; height: auto; }
+    
+    }
 
+    
+@media (min-width: 769px) and (max-width: 1024px){
+  
+    .coffe{
+        width: 50%; 
+    }
+    img { max-width: 0.5rem; height: auto; }
+ 
+
+}
+@media  (max-width: 1025px){
+    .coffe{
+        width: 100%;
+    }
+    img { max-width: 100%; height: auto; }
+    }
