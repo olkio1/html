@@ -8,6 +8,7 @@
     padding: 20px;
     border: 2px solid black;
     flex-wrap: wrap; 
+    background-color: aqua;
 }
 .coffe{
     flex: 1 1 200px;   
@@ -55,3 +56,26 @@
     }
     img { max-width: 100%; height: auto; }
     }
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg);} 
+  }
+  @keyframes jump{
+      0% { transform: translateY(0);}
+      50% { transform: translateY(-100px); }
+      100% { transform: translateY(0);  }
+  }
+  @keyframes blink {
+      0% { opacity: 1; }
+      50% { opacity: 0; }
+      100% { opacity: 1; }
+  }
+    .ball {
+      width: 50px;
+      text-align: center;
+      height: 50px;
+      border: 2px solid black;
+      border-radius: 50%;
+      background-color: red;
+      animation: jump 1s ease-in-out infinite;
+  }
