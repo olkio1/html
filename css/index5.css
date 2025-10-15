@@ -17,6 +17,7 @@
         opacity: 1;
         transform: translateY(0);
     }
+
 }
 .loader {
     animation: spin 5s linear infinite;
@@ -87,5 +88,40 @@ transition: transform 0.3s ease;
     transform: translateY(12px);
     animation: appear 600ms ease forwards;
 }
+.card {
+    width: 260px;
+    padding: 16px;
+    border-radius: 16px;
+    background: #fff;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.0);
+    transition: transform 0.2s, box-shadow .2s;
+  }
+  
+  .card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
+  }
+  .grad {
+    min-height: 160px;
+    display: grid;
+    place-items:center;
+    color: #fff;
+    font-weight: 700;
+    background: linear-gradient(45deg, #8b5cf6, #8b5cf6,#22c55e);
+    background-size: 300% 300%;
+    animation: shift 5s ease infinite;
+  }
+  @keyframes shift{
+      0%{
+          background-position: 0 50%;
+      }
+      50%{
+          background-position: 100% 50%;
+      }
+      100%{
+          background-position: 0 50%;
+      }
+  }
+
 
 
