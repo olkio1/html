@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/form2.css">
+</head>
+<body>
+        
+    <form action="/send" method="post" class="form" >
+        <button class="form_button form_button--primary" type="submit">
+                <span class="form_button-icon">🐱</span>
+                <span class="form_button-text">Отправить</span>
+    </button>
+    </form>
+    <label  class="form__option">
+        <input type="checkbox" class="form__checkbox" id="agree" name="agree" value="yes">
+        <span class="form__option-text">Согласен с условиями</span>
+        </label>
+
+        <fieldset class="form__group">
+            <legend class="form__label">Пол</legend>
+            <label class="form__option">
+                <input type="radio" name="gender" value="male">
+                <span class="form__option-text">Мужской</span>
+            </label>
+            <label class="form__option">
+                <input type="radio" name="gender" value="female">
+                <span class="form__option-text">Женский</span>
+            </label>
+        </fieldset>
+        <form action="/upload" method="post" enctype="multipart/form-data" class="form">
+            <label class="form__option">
+                <span class="form__option-text">
+                    Аватар
+                </span>
+                <input type="file" class="form_file" name="avatar" accept="image/*" >
+            </label>
+        
+            <button class="form_button form_button--primary" type="submit">Загрузить</button>
+        </form>
+
+</body>
+</html>
