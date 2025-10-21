@@ -8,7 +8,9 @@
     padding: 20px;
     border: 2px solid black;
     flex-wrap: wrap; 
-    background-color: aqua;
+     background: linear-gradient(45deg, #8b5cf6, #8b5cf6,#22c55e);
+    background-size: 300% 300%;
+    animation: shift 5s ease infinite;
 }
 .coffe{
     flex: 1 1 200px;   
@@ -36,7 +38,7 @@
     .cards {
         width: 100%;
     }
-     img { max-width: 44%; height: auto; }
+     img { max-width: 15vw; height: auto; }
     
     }
 
@@ -54,28 +56,18 @@
     .coffe{
         width: 100%;
     }
-    img { max-width: 100%; height: auto; }
+    img { max-width: 30vh; height: auto; }
+
     }
-    @keyframes spin {
-      0% { transform: rotate(0deg); }
-      100% { transform: rotate(360deg);} 
-  }
-  @keyframes jump{
-      0% { transform: translateY(0);}
-      50% { transform: translateY(-100px); }
-      100% { transform: translateY(0);  }
-  }
-  @keyframes blink {
-      0% { opacity: 1; }
-      50% { opacity: 0; }
-      100% { opacity: 1; }
-  }
-    .ball {
-      width: 50px;
-      text-align: center;
-      height: 50px;
-      border: 2px solid black;
-      border-radius: 50%;
-      background-color: red;
-      animation: jump 1s ease-in-out infinite;
+   
+  @keyframes shift{
+      0%{
+          background-position: 0 50%;
+      }
+      50%{
+          background-position: 100% 50%;
+      }
+      100%{
+          background-position: 0 50%;
+      }
   }
