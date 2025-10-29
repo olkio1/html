@@ -1,0 +1,17 @@
+
+.navbar{
+    height: 80px;
+}
+
+  h1{
+    font-size: 96px;
+    padding: 64px 136px 64px 136px;
+  }
+ 
+  
+  
+  .container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
