@@ -1,13 +1,30 @@
-.mb-3{
+body{
+   font-family: "Playfair Display", serif;
+   font-optical-sizing: auto;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   color: #0f172a;
+
+}
+
+
+.managment{
     height:480px;
     width: 1168px;
+    border: 0 !important;  
+
 }
 .card-group{
     display: flex;
     flex-direction: row;
+    gap: 25px;
+    padding-bottom: 80px;
     width: 1340px;
     height: 432px;
 }
+
 .quota{
     width: 1440px;
     height: 730px;
@@ -30,5 +47,140 @@ a{
     color: grey;
 }
 .container{
-    border: none;
+    border: 0 !important;
 }
+h1{
+    
+    padding: 64px 136px 64px 136px;
+}
+.txt{
+    padding: 80px 0px 20px 0px;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 124%;
+}
+.people{
+    width: 1440px;
+    height: 890px;
+    padding: 80px 136px 80px 136px;
+    gap: 64px;
+}
+.card-img-top{
+    object-fit: cover;
+    width: 300px;
+    height: 400px;
+}
+
+.title {
+    font-size: 96px;
+    font-weight: 800;
+    line-height: 100%;
+    letter-spacing: -3.4px;
+    padding: 64px 0;
+}
+.center{
+    width: 187px;
+    height: 56px;
+    margin: 0px 550px;
+}
+.card-text {
+    padding-bottom: 40px;
+}
+.peoples{
+    width: 1168px;
+    height: 610px;
+    padding: 80px 136px;
+    border: 0 !important;
+}
+.people-body{
+    height: auto;
+    width: 630px;
+    text-align: center;
+    align-items: center;
+    gap: 30px;
+   
+}
+.quota-title{
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 124%;
+    letter-spacing: -2%;
+    padding: 80px 0px;
+}
+.quota-body{
+    width: 1100px;
+    height: 386px;
+    gap: 48px;
+}
+.blockquota{
+    width: 870px;
+    height: 290px;
+    padding-left: 239px;
+    padding-bottom: 96px;
+    font-size: 36px;
+    line-height: 160%;
+    letter-spacing: 1%;
+}
+.archmove-title{
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 100%;
+    letter-spacing: -2%;
+    
+}
+.archmove{
+    margin-top: 200px;
+    margin-left: 150px;
+}
+.partner{
+    width: 1440px;
+    height: 324px;
+
+}
+.partner-title{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 124%;
+    letter-spacing: -4%;
+    padding: 64px 0px 10px 136px;
+
+}
+.Partners{
+    width: 1168px;
+    height: 112px;
+    font-size: 20px;
+    justify-content: space-between;
+    padding:10px 0px;
+    margin-left: 136px;
+   
+}
+    .footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 80px 136px 80px 136px;
+    }
+    .footer a{
+        text-decoration: none;
+        color: #0f172a;
+    }
+    .footer-links{
+        flex-basis: 60%;
+        padding-left: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+
+
+
+
+@media screen and (max-width: 600px) {
+    .card-img-top {
+        width: 250px;
+        height: auto;
+    }
+    
+}
+
