@@ -221,3 +221,5 @@ console.log("10" < 2); // false
 console.log("abc" > 5); // abc будет преобразовано в число, но т.к оно не может быть преобразовано будет Nan и Nan > 5 == false
 console.log(true == 1); // true = 1 
 console.log(false == 0); // false = 1 
+let isReady = true;
+console.log(isReady ? "Готово" : "Не готово");
