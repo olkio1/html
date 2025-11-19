@@ -160,15 +160,18 @@ h1{
     }
     .blockquota{
         font-size: 24px;
+        width: 0;
     }
     .archmove-title{
         font-size: 40px;
     }
     .quota-body{
         justify-content: start;
+       width: 0;
     }
     .archmove{
         margin-top: 0%;
     }
+
 }
 
